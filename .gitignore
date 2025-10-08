@@ -1,0 +1,34 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage & test reports
+coverage.out
+coverage.html
+TEST_RESULTS.md
+TEST_RESULTS*.md
+
+# Build artifacts
+/dist/
+/tmp/
+chat-archives/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+
+# Environment
+.env
+.env.*
+
