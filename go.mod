@@ -1,4 +1,4 @@
-module github.com/beeper/desktop-api-go
+module github.com/cameronaaron/beeper-go-sdk
 
 go 1.21
 
