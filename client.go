@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/beeper/desktop-api-go/internal"
-	"github.com/beeper/desktop-api-go/resources"
+	"github.com/cameronaaron/beeper-go-sdk/internal"
+	"github.com/cameronaaron/beeper-go-sdk/resources"
 )
 
 // BeeperDesktop is the main API client for the Beeper Desktop API

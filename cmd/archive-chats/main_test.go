@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/beeper/desktop-api-go/resources"
+	"github.com/cameronaaron/beeper-go-sdk/resources"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -2,8 +2,9 @@ package beeperdesktop
 
 import (
 	"context"
-	"github.com/beeper/desktop-api-go/internal"
-	"github.com/beeper/desktop-api-go/resources"
+
+	"github.com/cameronaaron/beeper-go-sdk/internal"
+	"github.com/cameronaaron/beeper-go-sdk/resources"
 )
 
 // Iterator provides a way to iterate through paginated results

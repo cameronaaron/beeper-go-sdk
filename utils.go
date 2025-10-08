@@ -1,8 +1,9 @@
 package beeperdesktop
 
 import (
-	"github.com/beeper/desktop-api-go/internal"
 	"net/url"
+
+	"github.com/cameronaaron/beeper-go-sdk/internal"
 )
 
 // Utility functions for pointer conversion and query building

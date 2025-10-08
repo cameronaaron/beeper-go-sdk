@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"testing"
 
-	beeperdesktop "github.com/beeper/desktop-api-go"
-	"github.com/beeper/desktop-api-go/resources"
+	beeperdesktop "github.com/cameronaaron/beeper-go-sdk"
+	"github.com/cameronaaron/beeper-go-sdk/resources"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

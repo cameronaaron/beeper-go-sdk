@@ -26,27 +26,32 @@ Pull requests are the best way to propose changes to the codebase. We actively w
 ## Development Setup
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/beeper/desktop-api-go.git
-   cd desktop-api-go
+   git clone https://github.com/cameronaaron/beeper-go-sdk.git
+   cd beeper-go-sdk
    ```
 
 2. Install dependencies:
+
    ```bash
    go mod download
    ```
 
 3. Install development tools:
+
    ```bash
    make install-tools
    ```
 
 4. Run tests:
+
    ```bash
    make test
    ```
 
 5. Run linting:
+
    ```bash
    make lint
    ```
@@ -75,7 +80,7 @@ Pull requests are the best way to propose changes to the codebase. We actively w
 
 ## Issue Reporting
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/beeper/desktop-api-go/issues).
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/cameronaaron/beeper-go-sdk/issues).
 
 **Great Bug Reports** tend to have:
 

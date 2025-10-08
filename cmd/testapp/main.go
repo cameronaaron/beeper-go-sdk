@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	beeperdesktop "github.com/beeper/desktop-api-go"
-	"github.com/beeper/desktop-api-go/resources"
+	beeperdesktop "github.com/cameronaaron/beeper-go-sdk"
+	"github.com/cameronaaron/beeper-go-sdk/resources"
 )
 
 func main() {
@@ -187,17 +187,17 @@ func runContactsTest(ctx context.Context, client *beeperdesktop.BeeperDesktop, a
 			break
 		}
 	}
-	
+
 	// Fall back to first account if no WhatsApp found
 	if accountID == "" {
 		accountID = (*accounts)[0].AccountID
 	}
-	
+
 	params := resources.ContactSearchParams{
 		AccountID: accountID,
 		Query:     "test",
 	}
-	
+
 	fmt.Printf("  → Searching contacts on %s...\n", accountID)
 
 	contacts, err := client.Contacts.Search(ctx, params)

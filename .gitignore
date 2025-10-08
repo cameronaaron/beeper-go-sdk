@@ -18,6 +18,9 @@ TEST_RESULTS*.md
 /dist/
 /tmp/
 chat-archives/
+cmd/webchat/ui/node_modules/
+cmd/webchat/ui/dist/
+cmd/webchat/ui/.parcel-cache/
 
 # IDE/editor
 .vscode/
@@ -32,3 +35,4 @@ chat-archives/
 .env
 .env.*
 
+.github/copilot-instructions.md
